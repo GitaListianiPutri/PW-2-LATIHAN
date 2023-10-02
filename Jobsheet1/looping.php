@@ -8,7 +8,9 @@
 <body>
     <?php
     echo "Bilangan genap dari 1 sampai 10 menggunakan for <br>" ; 
-    for($i = 2; $i <= 10; $i += 2) {
+    // perulangan for : perulangan yang dikerjakan secara berulang-ulang. set perulangan akan berhenti
+    // ketika kondisi telah terpenuhi.
+    for($i = 2; $i <= 10; $i +=2) {
        
         echo $i , " <br>";
     }
@@ -21,7 +23,9 @@
 //     }
 //     $i++;
 // }
-
+    // perulangan while
+    // Perulangan ini berguna untuk memproses suatu pernyataan atau beberapa 
+    // pernyataan secara berulang-ulang hingga kondisi terpenuhi
     $i = 1;
     while ($i <=10){
         echo " $i <br> ";
@@ -29,6 +33,9 @@
     }
 
     echo "Bilangan prima kurang dari 20 menggunakan do while <br>";
+    // perulangan do while
+    // Perulangan DO WHILE tetap konsisten melakukan pengulangan sebanyak satu kali diawal, 
+    // kemudian dilanjutkan dengan melakukan pengecekan kondisi.
     $num = 2;
     do {
         $bil = true;
