@@ -1,3 +1,4 @@
+<!-- brancing/percabangan -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,8 @@
     <?php
      if (isset($_POST['submit'])) {
         $bilangan = $_POST['bilangan'];
-    // echo "Nilai x = $x <br> <br>";
+    // $bilangan = 12;
+    // echo "Nilai x = $bilangan <br> <br>";
     if ($bilangan > 0 ){
         echo "$bilangan Bilangan Positif";
     }
